@@ -7,7 +7,9 @@ int pilihan,penumpang,harga,total;
 string tujuan;
 void tiket()
 {
-    cout<<"---HARGA TIKET TUJUAN---"<<endl;
+    cout << "==================================" << endl;
+    cout << "       MENU TIKET BUS MALANG      " << endl;
+    cout << "==================================" << endl;
     cout<<"1. Malang-Surabaya: Rp35000"<<endl;
     cout<<"2. Malang-Pasuruan: Rp20000"<<endl;
     cout<<"3. Malang-Jombang: Rp25000"<<endl;
@@ -62,11 +64,16 @@ void to ()
     cout<<penumpang<<endl;
     cout<<"Total Harga: ";
     cout<<total<<endl;
+    
+    
+        
 }
 int main() {
     tiket();
     to();
+        
+    
 
-  system("pause");
+    
     return 0;
 }
