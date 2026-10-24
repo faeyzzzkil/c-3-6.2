@@ -64,9 +64,8 @@ void to ()
     cout<<penumpang<<endl;
     cout<<"Total Harga: ";
     cout<<total<<endl;
-    
-    
-        
+
+    system("pause");
 }
 int main() {
     tiket();
